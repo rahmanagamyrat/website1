@@ -1,0 +1,192 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 50vh;
+    width: 100%;
+}
+
+.home-surat {
+    width: 100%;
+}
+
+.home-div {
+    height: 95vh;
+    width: 100%;
+    background-image: url("../img/LdQUqn.jpg");
+    display: flex;
+    flex-direction: column;
+}
+.home-back1 {
+    width: 100%;
+}
+.home-back2 {
+    width: 100%;
+}
+.home-back3 {
+    width: 100%;
+}
+.home-back4 {
+    width: 100%;
+}
+.home-div1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.home-div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-cep {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-sag {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.home-sagcep {
+    display: flex;
+}
+
+.home-imgcep {
+    margin-top: 18%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    width: 90%;
+    height: 50%;
+    margin-right: 2%;
+    border-radius: 15px;
+}
+
+.home-imgsag {
+    margin-top: 50%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    width: 90%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.home-h22 {
+    color: #fff;
+    font-size: 60px;
+    margin: 5%;
+}
+.home-button {
+    background-color: #580202;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    transition: ease bacground-color 250ms;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.home-a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.home-link {
+    color: white;
+    background-color: white;
+}
+
+.home-h1 {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #333333;
+    font-family: "Monaco", monospace;
+}
+.home-h2 {
+    font-size: 35px;
+    color: #9f0500;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Monaco", monospace;
+}
+.home-h222 {
+    color: hsl(0, 0%, 33%);
+    font-size: 35px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Monaco", monospace;
+}
+.home-h3 {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    font-family: "Monaco", monospace;
+}
+
+.home-h13 {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .home-container {
+        grid-template-columns: 1fr
+    }
+    .home-h1 {
+        font-size: 30px;
+    }
+    .home-h22 {
+        font-size: 50px;
+    }
+    .home-div {
+        height: 76vh;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .home-imgcep {
+        height: 50%;
+    }
+    .home-div1 {
+        margin-top: 30%;
+        margin-left: 15%;
+        width: 60%;
+    }
+    .home-button {
+        font-size: 20px;
+    }
+
+    .home-imgsag {
+        height: 50%;
+    }
+    .home-h1 {
+        font-size: 20px;
+    }
+    .home-h2 {
+        font-size: 20px;
+    }
+    .home-h3 {
+        font-size: 17px;
+    }
+    .home-h22 {
+        font-size: 35px;
+    }
+}
